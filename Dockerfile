@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/<Braixen123>/<the forked repository name>.git
+RUN git clone https://github.com/<Braixen123>/<Interstellar>.git
 
-WORKDIR /<the forked repository name>
+WORKDIR /<Interstellar>
 
 RUN npm install
 
